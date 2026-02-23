@@ -51,8 +51,9 @@ header nav ul{
     
 header nav ul li:hover{
     
-    transform:scale(1.1);
-    transition: 0.1s ease-in-out;
+    /* transform:scale(1.1); */
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
     color: #A7C4BC;
     
 }
@@ -85,27 +86,17 @@ footer{
     font-size: 1rem;
 
 }
-.Menu{
+#Menu{
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
-.Menu button{
-    margin: 10rem;
-    height: 3rem;
-    width: 20rem;
-    border-radius: 30px;
-    background-color: #D6B97A;
-    color:#0B1F1A;
-    font-size: 1.5rem;
-    cursor: pointer;
-    font-weight: bold;
-}
+
 
 .introduction{
     flex: 1;
     flex-direction: column;
-    height: 100vh;
+    
     display: flex;
     padding: 100px;
     align-items: center;
@@ -123,11 +114,26 @@ footer{
     margin-bottom: 1rem;
     color:#A8D5C2;
 }
-.introduction button:hover{
+#button button:hover{
     transform:scale(1.1);
     transition: 0.1s ease-in-out;
     color: #A7C4BC;
     background-color:#112D26;
+}
+#button  button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:wheat;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 1rem
+    
 }
 .photo{
     flex: 2;
@@ -143,3 +149,50 @@ footer{
     width: 25rem;
     margin: 100px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#socials ul  {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: flex-end;
+    list-style: none;
+    
+}
+#socials ul li a{
+    margin: 1rem;
+    padding: 1rem;
+    
+    color: #E8F5F2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#socials ul li a:hover{
+    /* transform: scale(1.1);
+    transition: 0.1s ease-in-out; */
+    color: #A7C4BC;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+#Paragraph{
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    
+    flex-direction: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
