@@ -90,7 +90,20 @@ footer{
     display: flex;
     flex-direction: row;
 }
+.Menu button{
+    margin: 10rem;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 30px;
+    background-color: #D6B97A;
+    color:#0B1F1A;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .introduction{
+    flex: 1;
     flex-direction: column;
     height: 100vh;
     display: flex;
@@ -109,4 +122,24 @@ footer{
 .introduction p{
     margin-bottom: 1rem;
     color:#A8D5C2;
+}
+.introduction button:hover{
+    transform:scale(1.1);
+    transition: 0.1s ease-in-out;
+    color: #A7C4BC;
+    background-color:#112D26;
+}
+.photo{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #E8F5F2;
+    font-size: 1.5rem;
+
+}
+.photo img {
+    height: auto;
+    width: 25rem;
+    margin: 100px;
 }
