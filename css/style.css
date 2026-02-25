@@ -15,7 +15,7 @@ body {
 header{
     display: flex;
     flex-direction: row;
-    background-color: #112D26;
+    background-color: rgb(0, 0, 0 ,0.2);
     /* backdrop-filter: blur(10px); */
     box-shadow: #A7C4BC 0px 5px 6px;
     position: fixed;
@@ -75,7 +75,7 @@ header i {
 main{
     height: 100%;
     width: 100%;
-    padding: 5rem;
+    padding-top: 5rem;
 }
 
 footer{
@@ -200,29 +200,42 @@ footer{
     cursor: pointer;
     font-weight: bold;
 }
-
+#Web{
+    display: flex;
+    flex-direction: row;
+}
 .Projects{
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 1rem;
-    padding: 1rem;
+    
     gap: 1rem;
     font-size: 1.2rem;
-    cursor: pointer;
+ 
+    width: 100%;
+    background-color: #143B33;
+    
+    
+}
+#Title{
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
 }
 .webProjects{
-    flex: 1;
-    flex-direction: row;
-    background-color: rgba(54, 163, 131, 0.1);
+    display: block;
     padding: 1rem;
     border-radius: 3rem;
-    text-align: center;
+    text-align: center; 
+    
 }
+
 .webProjects img {
-    height: auto;
-    width: auto;
+    height: 40rem;
+    width: 50rem;
     margin: 1rem;
     padding: 1rem;
     gap: 1rem;
@@ -230,5 +243,48 @@ footer{
     font-size: 1.2rem;
     cursor: pointer;
     border-radius: 2rem;
-    font-weight: bold;
+    
+}
+#Description {
+    text-align: center;
+    flex: 2;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.Project_Description{
+    font-size: 2rem;
+}
+.Project_Description p{
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 1.2rem;
+}
+.Project_Description h3{
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.button{
+    background-color: #D6B97A;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.button:hover{
+    transform:scale(1.1);
+    transition: 0.1s ease-in-out;
+    color: #A7C4BC;
+    background-color:#112D26;
+    box-shadow: #A7C4BC 0px 5px 6px;
 }
