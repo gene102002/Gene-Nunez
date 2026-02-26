@@ -254,6 +254,9 @@ footer{
     font-size: 1.5rem;
     
 }
+#Projects{
+    padding: 5rem;
+}
 .Project_Description{
     font-size: 2rem;
 }
@@ -286,5 +289,54 @@ footer{
     transition: 0.1s ease-in-out;
     color: #A7C4BC;
     background-color:#112D26;
+    box-shadow: #A7C4BC 0px 5px 6px;
+}
+.pageTitle{
+    text-align: center;
+    flex: 2;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+}
+#Services{
+
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 1rem;
+    text-align: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+    
+}
+.service img {
+    height: 50rem;
+    width: 30rem;
+    border-radius:0  3rem 0 3rem ;
+    
+}
+.service div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #143B33;
+    padding: 3rem;
     box-shadow: #A7C4BC 0px 5px 6px;
 }
