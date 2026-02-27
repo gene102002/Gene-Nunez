@@ -23,6 +23,10 @@ $(document).ready(function () {
        
     });
 
+    $('#download').click(function () {
+        $('#Resume').download('../files/mycv.docx');
+    });
+
 });
 
 // Global function for HTML onclick

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+
 }
 body {
     background-color: #0B1F1A;
@@ -136,8 +137,13 @@ footer{
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 1rem
+    margin: 1rem;
+    text-decoration: none;
     
+}
+#button a{
+    text-decoration: none;
+    color:black;
 }
 .photo{
     flex: 2;
@@ -309,6 +315,7 @@ footer{
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: bold;
+    align-items: center;
 
 
 }
