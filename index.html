@@ -13,6 +13,9 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 </head>
 
 <body>
@@ -31,7 +34,7 @@
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Services">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contacts">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -135,8 +138,20 @@
                     </div>
                 </div>
             </section>
-            <section class="Contact">
-                
+            <section class="Contact" id="contacts">
+
+                <div id="contact">
+                    <h1>Contacts:</h1> <br>
+                    <p>Phone Number: +63 9xx xxx xx</p>
+                    <p>Email: genesins013@gmail.com</p>
+                    <p>Location: Philippines</p>
+                </div>
+                <div id="Feedback">
+                    <label for="Feedback">Feedback:</label> <br>
+                    <textarea name="Feedback" id="feedback" cols="30" rows="10"></textarea>
+                    <button id="submit" class="button" onclick="sendFeedback()">Submit</button>
+                </div>
+
             </section>
         </article>
 

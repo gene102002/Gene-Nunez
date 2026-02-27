@@ -81,7 +81,6 @@ main{
 footer{
     background-color: #112D26;
     /* backdrop-filter: blur(10px); */
-    box-shadow: #A7C4BC 0px 5px 6px;
     height: auto;
     margin: auto;
     width: 100%;
@@ -212,7 +211,7 @@ footer{
     
     gap: 1rem;
     font-size: 1.2rem;
- 
+    height: 100%;
     width: 100%;
     background-color: #143B33;
     
@@ -310,7 +309,7 @@ footer{
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: bold;
-    
+
 
 }
 
@@ -339,4 +338,53 @@ footer{
     background-color: #143B33;
     padding: 3rem;
     box-shadow: #A7C4BC 0px 5px 6px;
+}
+.Contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color:#112D26 ;
+    height: 50vh;
+    width: 100%;
+
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    color: #E8F5F2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 2;
+    width: 50%;
+}
+#Feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 1rem;
+}
+#Feedback textarea{
+    background-color: #143B33;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: #A7C4BC 0px 5px 6px;
+    color: #E8F5F2;
+    text-align: center;
+    padding: 1rem;
 }
