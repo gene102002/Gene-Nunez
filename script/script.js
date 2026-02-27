@@ -23,9 +23,7 @@ $(document).ready(function () {
        
     });
 
-    $('#download').click(function () {
-        $('#Resume').download('../files/mycv.docx');
-    });
+    
 
 });
 
